@@ -56,7 +56,7 @@ print(deaths.describe())
 <h3>3. You know nothing, John Snow!</h3>
 <p>His medical colleagues simply said: "You know nothing, John Snow!" However, a reviewer made a helpful suggestion in terms of what evidence would be compelling: the crucial natural experiment would be to find people living side by side with lifestyles similar in all respects except for the water source.</p>
 
-<h4>Snow's Map</h4>
+<h4>4. Snow's Map</h4>
 <p align='center'>
   <img src='http://atlas-dev.s3.amazonaws.com/uploads/assets/Snow-cholera-map-1(1).jpg'>
 </p>
@@ -75,3 +75,19 @@ for point in range(0, len(deaths_list)):
 map
 ```
 <p align='center'><img src='https://github.com/shukkkur/John-Snows-Ghost-Map/blob/a12126fa75b5f181c2daf01b0d3e4d780f2bd506/datasets/choleraAttacks.gif'><p>
+
+<h3>5. It's the pump!</h3>
+<p>After marking the deaths on the map, what John Snow saw was not a random pattern.The majority of the deaths were concentrated at the corner of Broad Street (now Broadwick Street) and Cambridge Street (now Lexington Street). A cluster of deaths around the junction of these streets was the epicenter of the outbreak, but what was there? Yes, a <b>water pump</b>.</p>
+
+```python
+pumps = pd.read_csv('datasets/pumps.csv')
+locations_pumps = pumps[['X coordinate', 'Y coordinate']]
+pumps_list = locations_pumps.values.tolist()
+
+map1 = map
+for point in range(0, len(pumps_list)):
+    folium.Marker(pumps_list[point], popup=pumps['Pump Name'][point]).add_to(map1)
+map1
+```
+
+<p align='center'><img src='https://github.com/shukkkur/John-Snows-Ghost-Map/blob/bdb492f8a015f57ca091da3c2cd84281a76bec3a/datasets/pumpsLoc.gif'><p>
