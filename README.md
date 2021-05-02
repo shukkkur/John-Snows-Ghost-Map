@@ -61,6 +61,8 @@ print(deaths.describe())
   <img src='http://atlas-dev.s3.amazonaws.com/uploads/assets/Snow-cholera-map-1(1).jpg'>
 </p>
 
+<h4>We now know how John Snow did it and have the data too, so let's recreate his map using modern techniques.</h4>
+
 ```python
 import folium
 
