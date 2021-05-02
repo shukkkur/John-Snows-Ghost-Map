@@ -1,4 +1,10 @@
 <h2> Recreating John Snow's Ghost Map </h2>
+
+![Forks](https://img.shields.io/github/forks/shukkkur/John-Snows-Ghost-Map.svg)
+![Stars](https://img.shields.io/github/stars/shukkkur/John-Snows-Ghost-Map.svg)
+![Watchers](https://img.shields.io/github/watchers/shukkkur/John-Snows-Ghost-Map.svg)
+![Last Commit](https://img.shields.io/github/last-commit/shukkkur/John-Snows-Ghost-Map.svg) 
+
 <p align='center'>
   <img width=300 height=400 src='https://upload.wikimedia.org/wikipedia/commons/c/cc/John_Snow.jpg'>
 </p>
