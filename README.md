@@ -92,7 +92,7 @@ map1
 
 <p align='center'><img src='https://github.com/shukkkur/John-Snows-Ghost-Map/blob/bdb492f8a015f57ca091da3c2cd84281a76bec3a/datasets/pumpsLoc.gif'><p>
 
-<h3>The picture worth a thousand words</h3>
+<h3>6. The picture worth a thousand words</h3>
 
 <p>Removing the handle from the pump prevented any more of the infected water from being collected. The spring below the pump was later found to have been contaminated with sewage. This act was later recognized as an early example of epidemiology, public health medicine and the application of science (the germ theory of disease) in a real-life crisis. </p>
 
