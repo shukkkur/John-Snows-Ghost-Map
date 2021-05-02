@@ -58,7 +58,7 @@ print(deaths.describe())
 
 <h4>Snow's Map</h4>
 <p align='center'>
-  <img width=300 height=400 src='http://atlas-dev.s3.amazonaws.com/uploads/assets/Snow-cholera-map-1(1).jpg'>
+  <img src='http://atlas-dev.s3.amazonaws.com/uploads/assets/Snow-cholera-map-1(1).jpg'>
 </p>
 
 ```python
